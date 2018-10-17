@@ -14,7 +14,7 @@
 		C4EC619E216E45DA009E862C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EC619C216E45DA009E862C /* LaunchScreen.storyboard */; };
 		C4EC61A1216E45DA009E862C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EC61A0216E45DA009E862C /* main.m */; };
 		C4EC61AB216E45DA009E862C /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EC61AA216E45DA009E862C /* GCDTests.m */; };
-		C4EC61B6216E45DA009E862C /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EC61B5216E45DA009E862C /* GCDUITests.m */; };
+		C4EC61B6216E45DA009E862C /* GCDexerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EC61B5216E45DA009E862C /* GCDexerciseUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4EC618E216E45DA009E862C /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EC618E216E45DA009E862C /* GCDexercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDexercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EC6191216E45DA009E862C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4EC6192216E45DA009E862C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C4EC6194216E45DA009E862C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,11 +45,11 @@
 		C4EC619D216E45DA009E862C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EC619F216E45DA009E862C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4EC61A0216E45DA009E862C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4EC61A6216E45DA009E862C /* GCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EC61A6216E45DA009E862C /* GCDexerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDexerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EC61AA216E45DA009E862C /* GCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTests.m; sourceTree = "<group>"; };
 		C4EC61AC216E45DA009E862C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4EC61B1216E45DA009E862C /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4EC61B5216E45DA009E862C /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
+		C4EC61B1216E45DA009E862C /* GCDexerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDexerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EC61B5216E45DA009E862C /* GCDexerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDexerciseUITests.m; sourceTree = "<group>"; };
 		C4EC61B7216E45DA009E862C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,9 +81,9 @@
 		C4EC6185216E45DA009E862C = {
 			isa = PBXGroup;
 			children = (
-				C4EC6190216E45DA009E862C /* GCD */,
-				C4EC61A9216E45DA009E862C /* GCDTests */,
-				C4EC61B4216E45DA009E862C /* GCDUITests */,
+				C4EC6190216E45DA009E862C /* GCDexercise */,
+				C4EC61A9216E45DA009E862C /* GCDexercise Tests */,
+				C4EC61B4216E45DA009E862C /* GCDexercise UITests */,
 				C4EC618F216E45DA009E862C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		C4EC618F216E45DA009E862C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4EC618E216E45DA009E862C /* GCD.app */,
-				C4EC61A6216E45DA009E862C /* GCDTests.xctest */,
-				C4EC61B1216E45DA009E862C /* GCDUITests.xctest */,
+				C4EC618E216E45DA009E862C /* GCDexercise.app */,
+				C4EC61A6216E45DA009E862C /* GCDexerciseTests.xctest */,
+				C4EC61B1216E45DA009E862C /* GCDexerciseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4EC6190216E45DA009E862C /* GCD */ = {
+		C4EC6190216E45DA009E862C /* GCDexercise */ = {
 			isa = PBXGroup;
 			children = (
 				C4EC6191216E45DA009E862C /* AppDelegate.h */,
@@ -111,33 +111,33 @@
 				C4EC619F216E45DA009E862C /* Info.plist */,
 				C4EC61A0216E45DA009E862C /* main.m */,
 			);
-			path = GCD;
+			path = GCDexercise;
 			sourceTree = "<group>";
 		};
-		C4EC61A9216E45DA009E862C /* GCDTests */ = {
+		C4EC61A9216E45DA009E862C /* GCDexercise Tests */ = {
 			isa = PBXGroup;
 			children = (
 				C4EC61AA216E45DA009E862C /* GCDTests.m */,
 				C4EC61AC216E45DA009E862C /* Info.plist */,
 			);
-			path = GCDTests;
+			path = "GCDexercise Tests";
 			sourceTree = "<group>";
 		};
-		C4EC61B4216E45DA009E862C /* GCDUITests */ = {
+		C4EC61B4216E45DA009E862C /* GCDexercise UITests */ = {
 			isa = PBXGroup;
 			children = (
-				C4EC61B5216E45DA009E862C /* GCDUITests.m */,
+				C4EC61B5216E45DA009E862C /* GCDexerciseUITests.m */,
 				C4EC61B7216E45DA009E862C /* Info.plist */,
 			);
-			path = GCDUITests;
+			path = "GCDexercise UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4EC618D216E45DA009E862C /* GCD */ = {
+		C4EC618D216E45DA009E862C /* GCDexercise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EC61BA216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCD" */;
+			buildConfigurationList = C4EC61BA216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDexercise" */;
 			buildPhases = (
 				C4EC618A216E45DA009E862C /* Sources */,
 				C4EC618B216E45DA009E862C /* Frameworks */,
@@ -147,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = GCD;
+			name = GCDexercise;
 			productName = GCD;
-			productReference = C4EC618E216E45DA009E862C /* GCD.app */;
+			productReference = C4EC618E216E45DA009E862C /* GCDexercise.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4EC61A5216E45DA009E862C /* GCDTests */ = {
+		C4EC61A5216E45DA009E862C /* GCDexerciseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EC61BD216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDTests" */;
+			buildConfigurationList = C4EC61BD216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDexerciseTests" */;
 			buildPhases = (
 				C4EC61A2216E45DA009E862C /* Sources */,
 				C4EC61A3216E45DA009E862C /* Frameworks */,
@@ -165,14 +165,14 @@
 			dependencies = (
 				C4EC61A8216E45DA009E862C /* PBXTargetDependency */,
 			);
-			name = GCDTests;
+			name = GCDexerciseTests;
 			productName = GCDTests;
-			productReference = C4EC61A6216E45DA009E862C /* GCDTests.xctest */;
+			productReference = C4EC61A6216E45DA009E862C /* GCDexerciseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4EC61B0216E45DA009E862C /* GCDUITests */ = {
+		C4EC61B0216E45DA009E862C /* GCDexerciseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EC61C0216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDUITests" */;
+			buildConfigurationList = C4EC61C0216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDexerciseUITests" */;
 			buildPhases = (
 				C4EC61AD216E45DA009E862C /* Sources */,
 				C4EC61AE216E45DA009E862C /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				C4EC61B3216E45DA009E862C /* PBXTargetDependency */,
 			);
-			name = GCDUITests;
+			name = GCDexerciseUITests;
 			productName = GCDUITests;
-			productReference = C4EC61B1216E45DA009E862C /* GCDUITests.xctest */;
+			productReference = C4EC61B1216E45DA009E862C /* GCDexerciseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4EC6189216E45DA009E862C /* Build configuration list for PBXProject "GCD" */;
+			buildConfigurationList = C4EC6189216E45DA009E862C /* Build configuration list for PBXProject "GCDexercise" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4EC618D216E45DA009E862C /* GCD */,
-				C4EC61A5216E45DA009E862C /* GCDTests */,
-				C4EC61B0216E45DA009E862C /* GCDUITests */,
+				C4EC618D216E45DA009E862C /* GCDexercise */,
+				C4EC61A5216E45DA009E862C /* GCDexerciseTests */,
+				C4EC61B0216E45DA009E862C /* GCDexerciseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4EC61B6216E45DA009E862C /* GCDUITests.m in Sources */,
+				C4EC61B6216E45DA009E862C /* GCDexerciseUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		C4EC61A8216E45DA009E862C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4EC618D216E45DA009E862C /* GCD */;
+			target = C4EC618D216E45DA009E862C /* GCDexercise */;
 			targetProxy = C4EC61A7216E45DA009E862C /* PBXContainerItemProxy */;
 		};
 		C4EC61B3216E45DA009E862C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4EC618D216E45DA009E862C /* GCD */;
+			target = C4EC618D216E45DA009E862C /* GCDexercise */;
 			targetProxy = C4EC61B2216E45DA009E862C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lifeiyan.GCDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCD.app/GCD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDexercise.app/GCDexercise";
 			};
 			name = Debug;
 		};
@@ -497,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lifeiyan.GCDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCD.app/GCD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDexercise.app/GCDexercise";
 			};
 			name = Release;
 		};
@@ -538,7 +538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4EC6189216E45DA009E862C /* Build configuration list for PBXProject "GCD" */ = {
+		C4EC6189216E45DA009E862C /* Build configuration list for PBXProject "GCDexercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EC61B8216E45DA009E862C /* Debug */,
@@ -547,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EC61BA216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCD" */ = {
+		C4EC61BA216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDexercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EC61BB216E45DA009E862C /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EC61BD216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDTests" */ = {
+		C4EC61BD216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDexerciseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EC61BE216E45DA009E862C /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EC61C0216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDUITests" */ = {
+		C4EC61C0216E45DA009E862C /* Build configuration list for PBXNativeTarget "GCDexerciseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EC61C1216E45DA009E862C /* Debug */,

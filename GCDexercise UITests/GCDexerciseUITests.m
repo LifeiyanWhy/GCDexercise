@@ -1,6 +1,6 @@
 //
-//  GCDUITests.m
-//  GCDUITests
+//  GCDexerciseUITests.m
+//  GCDexerciseUITests
 //
 //  Created by 李飞艳 on 2018/10/10.
 //  Copyright © 2018年 李飞艳. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface GCDUITests : XCTestCase
+@interface GCDexerciseUITests : XCTestCase
 
 @end
 
-@implementation GCDUITests
+@implementation GCDexerciseUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
